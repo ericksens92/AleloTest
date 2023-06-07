@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F82A62972A2FAF3600C32D83 /* AleloTesteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A62962A2FAF3600C32D83 /* AleloTesteApp.swift */; };
+		F82A62992A2FAF3600C32D83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A62982A2FAF3600C32D83 /* ContentView.swift */; };
+		F82A629B2A2FAF3800C32D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82A629A2A2FAF3800C32D83 /* Assets.xcassets */; };
+		F82A629F2A2FAF3800C32D83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82A629E2A2FAF3800C32D83 /* Preview Assets.xcassets */; };
+		F82A62A92A2FAF3800C32D83 /* AleloTesteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A62A82A2FAF3800C32D83 /* AleloTesteTests.swift */; };
+		F82A62B32A2FAF3800C32D83 /* AleloTesteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A62B22A2FAF3800C32D83 /* AleloTesteUITests.swift */; };
+		F82A62B52A2FAF3900C32D83 /* AleloTesteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A62B42A2FAF3900C32D83 /* AleloTesteUITestsLaunchTests.swift */; };
+		F82A62C32A2FB06600C32D83 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A62C22A2FB06600C32D83 /* APIError.swift */; };
+		F82A62C52A2FB10A00C32D83 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A62C42A2FB10A00C32D83 /* APIClient.swift */; };
+		F82A62C82A2FB56300C32D83 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A62C72A2FB56300C32D83 /* Product.swift */; };
+		F82A62CB2A2FF25D00C32D83 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F82A62CA2A2FF25D00C32D83 /* SDWebImageSwiftUI */; };
+		F8ABEF302A30B8CA00BEFF62 /* AleloUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ABEF2F2A30B8CA00BEFF62 /* AleloUnitTest.swift */; };
+		F8ABEF322A30BFA000BEFF62 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ABEF312A30BFA000BEFF62 /* APIClientTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F82A62A52A2FAF3800C32D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F82A628B2A2FAF3600C32D83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F82A62922A2FAF3600C32D83;
+			remoteInfo = AleloTeste;
+		};
+		F82A62AF2A2FAF3800C32D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F82A628B2A2FAF3600C32D83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F82A62922A2FAF3600C32D83;
+			remoteInfo = AleloTeste;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F82A62932A2FAF3600C32D83 /* AleloTeste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AleloTeste.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82A62962A2FAF3600C32D83 /* AleloTesteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleloTesteApp.swift; sourceTree = "<group>"; };
+		F82A62982A2FAF3600C32D83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F82A629A2A2FAF3800C32D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F82A629C2A2FAF3800C32D83 /* AleloTeste.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AleloTeste.entitlements; sourceTree = "<group>"; };
+		F82A629E2A2FAF3800C32D83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F82A62A42A2FAF3800C32D83 /* AleloTesteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AleloTesteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82A62A82A2FAF3800C32D83 /* AleloTesteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleloTesteTests.swift; sourceTree = "<group>"; };
+		F82A62AE2A2FAF3800C32D83 /* AleloTesteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AleloTesteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82A62B22A2FAF3800C32D83 /* AleloTesteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleloTesteUITests.swift; sourceTree = "<group>"; };
+		F82A62B42A2FAF3900C32D83 /* AleloTesteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleloTesteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F82A62C22A2FB06600C32D83 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		F82A62C42A2FB10A00C32D83 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		F82A62C72A2FB56300C32D83 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F8ABEF2F2A30B8CA00BEFF62 /* AleloUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleloUnitTest.swift; sourceTree = "<group>"; };
+		F8ABEF312A30BFA000BEFF62 /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F82A62902A2FAF3600C32D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82A62CB2A2FF25D00C32D83 /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82A62A12A2FAF3800C32D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82A62AB2A2FAF3800C32D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F82A628A2A2FAF3600C32D83 = {
+			isa = PBXGroup;
+			children = (
+				F82A62952A2FAF3600C32D83 /* AleloTeste */,
+				F82A62A72A2FAF3800C32D83 /* AleloTesteTests */,
+				F82A62B12A2FAF3800C32D83 /* AleloTesteUITests */,
+				F82A62942A2FAF3600C32D83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F82A62942A2FAF3600C32D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F82A62932A2FAF3600C32D83 /* AleloTeste.app */,
+				F82A62A42A2FAF3800C32D83 /* AleloTesteTests.xctest */,
+				F82A62AE2A2FAF3800C32D83 /* AleloTesteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F82A62952A2FAF3600C32D83 /* AleloTeste */ = {
+			isa = PBXGroup;
+			children = (
+				F82A62C62A2FB55400C32D83 /* Model */,
+				F82A62C12A2FB04A00C32D83 /* Service */,
+				F82A62962A2FAF3600C32D83 /* AleloTesteApp.swift */,
+				F82A62982A2FAF3600C32D83 /* ContentView.swift */,
+				F82A629A2A2FAF3800C32D83 /* Assets.xcassets */,
+				F82A629C2A2FAF3800C32D83 /* AleloTeste.entitlements */,
+				F82A629D2A2FAF3800C32D83 /* Preview Content */,
+			);
+			path = AleloTeste;
+			sourceTree = "<group>";
+		};
+		F82A629D2A2FAF3800C32D83 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F82A629E2A2FAF3800C32D83 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F82A62A72A2FAF3800C32D83 /* AleloTesteTests */ = {
+			isa = PBXGroup;
+			children = (
+				F82A62A82A2FAF3800C32D83 /* AleloTesteTests.swift */,
+				F8ABEF2F2A30B8CA00BEFF62 /* AleloUnitTest.swift */,
+				F8ABEF312A30BFA000BEFF62 /* APIClientTests.swift */,
+			);
+			path = AleloTesteTests;
+			sourceTree = "<group>";
+		};
+		F82A62B12A2FAF3800C32D83 /* AleloTesteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F82A62B22A2FAF3800C32D83 /* AleloTesteUITests.swift */,
+				F82A62B42A2FAF3900C32D83 /* AleloTesteUITestsLaunchTests.swift */,
+			);
+			path = AleloTesteUITests;
+			sourceTree = "<group>";
+		};
+		F82A62C12A2FB04A00C32D83 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F82A62C22A2FB06600C32D83 /* APIError.swift */,
+				F82A62C42A2FB10A00C32D83 /* APIClient.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F82A62C62A2FB55400C32D83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F82A62C72A2FB56300C32D83 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F82A62922A2FAF3600C32D83 /* AleloTeste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82A62B82A2FAF3900C32D83 /* Build configuration list for PBXNativeTarget "AleloTeste" */;
+			buildPhases = (
+				F82A628F2A2FAF3600C32D83 /* Sources */,
+				F82A62902A2FAF3600C32D83 /* Frameworks */,
+				F82A62912A2FAF3600C32D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AleloTeste;
+			packageProductDependencies = (
+				F82A62CA2A2FF25D00C32D83 /* SDWebImageSwiftUI */,
+			);
+			productName = AleloTeste;
+			productReference = F82A62932A2FAF3600C32D83 /* AleloTeste.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F82A62A32A2FAF3800C32D83 /* AleloTesteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82A62BB2A2FAF3900C32D83 /* Build configuration list for PBXNativeTarget "AleloTesteTests" */;
+			buildPhases = (
+				F82A62A02A2FAF3800C32D83 /* Sources */,
+				F82A62A12A2FAF3800C32D83 /* Frameworks */,
+				F82A62A22A2FAF3800C32D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F82A62A62A2FAF3800C32D83 /* PBXTargetDependency */,
+			);
+			name = AleloTesteTests;
+			productName = AleloTesteTests;
+			productReference = F82A62A42A2FAF3800C32D83 /* AleloTesteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F82A62AD2A2FAF3800C32D83 /* AleloTesteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82A62BE2A2FAF3900C32D83 /* Build configuration list for PBXNativeTarget "AleloTesteUITests" */;
+			buildPhases = (
+				F82A62AA2A2FAF3800C32D83 /* Sources */,
+				F82A62AB2A2FAF3800C32D83 /* Frameworks */,
+				F82A62AC2A2FAF3800C32D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F82A62B02A2FAF3800C32D83 /* PBXTargetDependency */,
+			);
+			name = AleloTesteUITests;
+			productName = AleloTesteUITests;
+			productReference = F82A62AE2A2FAF3800C32D83 /* AleloTesteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F82A628B2A2FAF3600C32D83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F82A62922A2FAF3600C32D83 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F82A62A32A2FAF3800C32D83 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F82A62922A2FAF3600C32D83;
+					};
+					F82A62AD2A2FAF3800C32D83 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F82A62922A2FAF3600C32D83;
+					};
+				};
+			};
+			buildConfigurationList = F82A628E2A2FAF3600C32D83 /* Build configuration list for PBXProject "AleloTeste" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F82A628A2A2FAF3600C32D83;
+			packageReferences = (
+				F82A62C92A2FF25D00C32D83 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = F82A62942A2FAF3600C32D83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F82A62922A2FAF3600C32D83 /* AleloTeste */,
+				F82A62A32A2FAF3800C32D83 /* AleloTesteTests */,
+				F82A62AD2A2FAF3800C32D83 /* AleloTesteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F82A62912A2FAF3600C32D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82A629F2A2FAF3800C32D83 /* Preview Assets.xcassets in Resources */,
+				F82A629B2A2FAF3800C32D83 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82A62A22A2FAF3800C32D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82A62AC2A2FAF3800C32D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F82A628F2A2FAF3600C32D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82A62992A2FAF3600C32D83 /* ContentView.swift in Sources */,
+				F82A62972A2FAF3600C32D83 /* AleloTesteApp.swift in Sources */,
+				F82A62C82A2FB56300C32D83 /* Product.swift in Sources */,
+				F82A62C32A2FB06600C32D83 /* APIError.swift in Sources */,
+				F82A62C52A2FB10A00C32D83 /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82A62A02A2FAF3800C32D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8ABEF322A30BFA000BEFF62 /* APIClientTests.swift in Sources */,
+				F82A62A92A2FAF3800C32D83 /* AleloTesteTests.swift in Sources */,
+				F8ABEF302A30B8CA00BEFF62 /* AleloUnitTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82A62AA2A2FAF3800C32D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82A62B52A2FAF3900C32D83 /* AleloTesteUITestsLaunchTests.swift in Sources */,
+				F82A62B32A2FAF3800C32D83 /* AleloTesteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F82A62A62A2FAF3800C32D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F82A62922A2FAF3600C32D83 /* AleloTeste */;
+			targetProxy = F82A62A52A2FAF3800C32D83 /* PBXContainerItemProxy */;
+		};
+		F82A62B02A2FAF3800C32D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F82A62922A2FAF3600C32D83 /* AleloTeste */;
+			targetProxy = F82A62AF2A2FAF3800C32D83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F82A62B62A2FAF3900C32D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F82A62B72A2FAF3900C32D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F82A62B92A2FAF3900C32D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AleloTeste/AleloTeste.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AleloTeste/Preview Content\"";
+				DEVELOPMENT_TEAM = SWVD85JQK6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.teste.AleloTeste;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F82A62BA2A2FAF3900C32D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AleloTeste/AleloTeste.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AleloTeste/Preview Content\"";
+				DEVELOPMENT_TEAM = SWVD85JQK6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.teste.AleloTeste;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F82A62BC2A2FAF3900C32D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWVD85JQK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.teste.AleloTesteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AleloTeste.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AleloTeste";
+			};
+			name = Debug;
+		};
+		F82A62BD2A2FAF3900C32D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWVD85JQK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.teste.AleloTesteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AleloTeste.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AleloTeste";
+			};
+			name = Release;
+		};
+		F82A62BF2A2FAF3900C32D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWVD85JQK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.teste.AleloTesteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AleloTeste;
+			};
+			name = Debug;
+		};
+		F82A62C02A2FAF3900C32D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWVD85JQK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.teste.AleloTesteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AleloTeste;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F82A628E2A2FAF3600C32D83 /* Build configuration list for PBXProject "AleloTeste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82A62B62A2FAF3900C32D83 /* Debug */,
+				F82A62B72A2FAF3900C32D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82A62B82A2FAF3900C32D83 /* Build configuration list for PBXNativeTarget "AleloTeste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82A62B92A2FAF3900C32D83 /* Debug */,
+				F82A62BA2A2FAF3900C32D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82A62BB2A2FAF3900C32D83 /* Build configuration list for PBXNativeTarget "AleloTesteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82A62BC2A2FAF3900C32D83 /* Debug */,
+				F82A62BD2A2FAF3900C32D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82A62BE2A2FAF3900C32D83 /* Build configuration list for PBXNativeTarget "AleloTesteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82A62BF2A2FAF3900C32D83 /* Debug */,
+				F82A62C02A2FAF3900C32D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F82A62C92A2FF25D00C32D83 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F82A62CA2A2FF25D00C32D83 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F82A62C92A2FF25D00C32D83 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F82A628B2A2FAF3600C32D83 /* Project object */;
+}
